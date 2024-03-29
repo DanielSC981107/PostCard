@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    min-height: 10px;
+}
+
+body{
+    background: black;
+    font-family: monospace;
+}
+img{
+    height: 50px;
+}
+p-1{
+    padding: 10px;
+}
+input{
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px grey solid;
+}
+
+button{
+    background-color: gray;
+    font-size: 18px;
+}
+.w-50{
+    width: 50%;
+}
+.w-100{
+    width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.square{
+    background: yellow;
+}
+
+.postcard-body{
+    overflow: hidden;
+}
+.postcard-head{
+    overflow: hidden;
+}
+.postcard-footer{
+    text-align: center;
+}
+.postcard{
+    background: white;
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
